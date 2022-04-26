@@ -28,7 +28,7 @@ namespace NgOtels.MvcUI.Controllers
             _logger = logger;
         }
 
-
+        [Route("")]
         public IActionResult Index()
         {
             //var test = _localizer["Merhaba"];
@@ -36,13 +36,31 @@ namespace NgOtels.MvcUI.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        [Route("discover")]
+        public IActionResult Discover()
         {
             return View();
         }
 
+        [Route("meetings")]
+        public IActionResult Meetings()
+        {
+            return View();
+        }
+
+        [Route("special")]
+        public IActionResult Special()
+        {
+            return View();
+        }
+
+        //public IActionResult Privacy()
+        //{
+        //    return View();
+        //}
+
         [HttpPost]
-        public IActionResult CultureManagement(string culture,string returnUrl)
+        public IActionResult CultureManagement(string culture, string returnUrl)
         {
             Response.Cookies.Append(CookieRequestCultureProvider.DefaultCookieName, CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)),
                new CookieOptions { Expires = DateTimeOffset.Now.AddDays(30) });

@@ -117,10 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Merhaba" xml:space="preserve">
-    <value>Merhaba C</value>
+  <data name="Kesfet" xml:space="preserve">
+    <value>Maison'u Keşfet</value>
   </data>
   <data name="Yukleniyor" xml:space="preserve">
-    <value>Yükleniyor</value>
+    <value>YÜKLENİYOR</value>
   </data>
 </root>
