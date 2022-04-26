@@ -78,8 +78,8 @@ theme.
 
 @font-face {
     font-family: 'Argesta Display';
-    src: url("../fonts/ArgestaDisplay-Regular.eot");
-    src: url("../fonts/ArgestaDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ArgestaDisplay-Regular.woff2") format("woff2"), url("../fonts/ArgestaDisplay-Regular.woff") format("woff"), url("../fonts/ArgestaDisplay-Regular.ttf") format("truetype"), url("../fonts/ArgestaDisplay-Regular.svg#ArgestaDisplay-Regular") format("svg");
+    src: url("../fonts/ArgestaDisplay-Regular.woff2");
+    src: url("../fonts/ArgestaDisplay-Regular.woff2") format("embedded-opentype"), url("../fonts/ArgestaDisplay-Regular.woff2") format("svg");
     font-weight: normal;
     font-style: normal;
 }
