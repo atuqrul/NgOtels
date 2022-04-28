@@ -1309,9 +1309,9 @@ body .page-header {
     }
 
     .slider .slider-fraction {
-        width: 20%;
-        height: 80px;
-        line-height: 80px;
+        width: 10%;
+        height: 40px;
+        line-height: 45px;
         background: #fff;
         position: absolute;
         left: auto;
@@ -1324,11 +1324,11 @@ body .page-header {
     }
 
     .slider .slider-prev {
-        width: 80px;
-        height: 80px;
+        width: 40px;
+        height: 40px;
         background: #141414;
         position: absolute;
-        right: calc(20% + 82px);
+        right: calc(10% + 40px);
         bottom: 0;
         z-index: 2;
         cursor: pointer;
@@ -1346,8 +1346,8 @@ body .page-header {
             border-bottom: 4px solid #fff;
             transform: rotate(45deg);
             position: absolute;
-            left: 35px;
-            top: 30px;
+            left: 15px;
+            top: 12px;
             -webkit-transition: all .35s ease-in-out;
             -moz-transition: all .30s ease-in-out;
             -ms-transition: all .30s ease-in-out;
@@ -1357,11 +1357,11 @@ body .page-header {
         }
 
     .slider .slider-next {
-        width: 80px;
-        height: 80px;
+        width: 40px;
+        height: 40px;
         background: #141414;
         position: absolute;
-        right: 20%;
+        right: 10%;
         bottom: 0;
         z-index: 2;
         cursor: pointer;
@@ -1379,8 +1379,8 @@ body .page-header {
             border-top: 4px solid #fff;
             transform: rotate(45deg);
             position: absolute;
-            right: 35px;
-            top: 30px;
+            right: 15px;
+            top: 12px;
             -webkit-transition: all .35s ease-in-out;
             -moz-transition: all .30s ease-in-out;
             -ms-transition: all .30s ease-in-out;
@@ -4204,7 +4204,7 @@ body .page-header {
     }
 
     .slider .slider-fraction {
-        width: 30%;
+        width: 15%;
     }
 
     .hotel-search form .form-group {
