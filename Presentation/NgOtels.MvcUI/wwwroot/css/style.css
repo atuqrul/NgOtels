@@ -99,6 +99,10 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.mtop {
+    margin-top: 1.4rem;
+}
+
 .hamburger-menu {
     visibility: hidden;
 }
@@ -773,7 +777,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
         width: 0%;
         height: 100%;
         max-height: 6px;
-        background: #856d47;
+        background: #ef554d;
         position: absolute;
         top: 0;
         left: 0;
@@ -3759,7 +3763,7 @@ body .page-header {
 
 /* RESPONSIVE MEDIUM  */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
-
+    
     .side-image .video-button {
         width: 120px;
         height: 120px;
@@ -3955,6 +3959,11 @@ body .page-header {
 }
 /* RESPONSIVE TABLET  */
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+
+    .advert {
+        margin-top: 10px;
+    }
+
     .hamburger-menu {
         visibility: visible;
     }
@@ -4139,6 +4148,10 @@ body .page-header {
 }
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+    .advert {
+        margin-top: 10px;
+    }
+
     .hamburger-menu {
         visibility: visible;
     }
