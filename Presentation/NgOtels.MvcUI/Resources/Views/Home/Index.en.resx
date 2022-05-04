@@ -117,7 +117,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Aciklama1" xml:space="preserve">
+    <value>From the Scottish Highlands &lt;br&gt;
+                                    to the Cornish Coast</value>
+    <comment>campaignes</comment>
+  </data>
+  <data name="Aciklama2" xml:space="preserve">
+    <value>Homewood Suites by &lt;br&gt;
+                        Quardo New York</value>
+  </data>
+  <data name="Desc" xml:space="preserve">
+    <value>Discover Britain’s
+                        leading luxury and
+                        boutique hotel.</value>
+  </data>
+  <data name="Desc2" xml:space="preserve">
+    <value>more description</value>
+  </data>
+  <data name="F&amp;B" xml:space="preserve">
+    <value>FOOD &amp; BEVERAGE</value>
+  </data>
+  <data name="F&amp;B2" xml:space="preserve">
+    <value>Why wouldn't you dine in?</value>
+  </data>
+  <data name="F&amp;B3" xml:space="preserve">
+    <value>Unlike other hotels, Hotels pride themselves
+                        on offering our guests in-house award-winning
+                        restaurants and our food philosophy is
+                        simple: seasonal, ingredients to
+                        showcase the region’s finest flavours.</value>
+  </data>
+  <data name="Fiyat1" xml:space="preserve">
+    <value>4 offers available</value>
+  </data>
+  <data name="Fiyat2" xml:space="preserve">
+    <value>1 to 7 nights</value>
+  </data>
+  <data name="Fiyat3" xml:space="preserve">
+    <value>View &amp; Look</value>
+  </data>
+  <data name="Header2" xml:space="preserve">
+    <value>Quardo Hotels in UK</value>
+  </data>
   <data name="Merhaba" xml:space="preserve">
     <value>Hello World!</value>
+  </data>
+  <data name="RoomsButton" xml:space="preserve">
+    <value>Rooms</value>
+  </data>
+  <data name="RoomsHeader" xml:space="preserve">
+    <value>WELCOME TO PRIDE OF HOTELS</value>
   </data>
 </root>
