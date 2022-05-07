@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="Footer" xml:space="preserve">
+    <value>Hem zarif hem de yaratıcı Maison L'etro Alaçatı Çeşme, Alaçatı'nın en gözde lokasyonunda &lt;u&gt;tarihi mirası&lt;/u&gt; çağdaş lüksle birleştiriyor.</value>
+  </data>
+  <data name="Footer2" xml:space="preserve">
+    <value>Etkileyici The Maison L'etro</value>
+  </data>
+  <data name="Iletisim" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
   <data name="Kesfet" xml:space="preserve">
     <value>Maison'u Keşfet</value>
   </data>

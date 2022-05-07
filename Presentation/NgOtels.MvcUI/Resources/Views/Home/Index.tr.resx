@@ -150,6 +150,9 @@
   <data name="Header2" xml:space="preserve">
     <value>Özgür ve sıra dışı</value>
   </data>
+  <data name="Iletisim1" xml:space="preserve">
+    <value>İletişim Numarası</value>
+  </data>
   <data name="Merhaba" xml:space="preserve">
     <value>Merhaba</value>
   </data>

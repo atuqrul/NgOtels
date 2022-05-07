@@ -159,6 +159,9 @@
   <data name="Header2" xml:space="preserve">
     <value>Quardo Hotels in UK</value>
   </data>
+  <data name="Iletisim1" xml:space="preserve">
+    <value>Contact</value>
+  </data>
   <data name="Merhaba" xml:space="preserve">
     <value>Hello World!</value>
   </data>

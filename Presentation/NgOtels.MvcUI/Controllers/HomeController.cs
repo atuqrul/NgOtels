@@ -5,10 +5,7 @@ using Microsoft.AspNetCore.Mvc.Localization;
 using Microsoft.Extensions.Logging;
 using NgOtels.MvcUI.Models;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace NgOtels.MvcUI.Controllers
 {
@@ -38,6 +35,18 @@ namespace NgOtels.MvcUI.Controllers
 
         [Route("discover")]
         public IActionResult Discover()
+        {
+            return View();
+        }
+
+        [Route("rooms")]
+        public IActionResult Rooms()
+        {
+            return View();
+        }
+
+        [Route("contact")]
+        public IActionResult Contact()
         {
             return View();
         }
