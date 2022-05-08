@@ -39,6 +39,12 @@ namespace NgOtels.MvcUI.Controllers
             return View();
         }
 
+        [Route("gallery")]
+        public IActionResult Gallery()
+        {
+            return View();
+        }
+
         [Route("rooms")]
         public IActionResult Rooms()
         {

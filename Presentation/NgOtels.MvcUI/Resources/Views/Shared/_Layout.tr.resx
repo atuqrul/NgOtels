@@ -141,6 +141,9 @@
   <data name="Kesfet" xml:space="preserve">
     <value>Maison'u Keşfet</value>
   </data>
+  <data name="NavbarContact" xml:space="preserve">
+    <value>İletişim 0 (850) 450 06 35</value>
+  </data>
   <data name="Odalar" xml:space="preserve">
     <value>Odalar</value>
   </data>

@@ -138,6 +138,9 @@
   <data name="Iletisim" xml:space="preserve">
     <value>Contact Us</value>
   </data>
+  <data name="NavbarContact" xml:space="preserve">
+    <value>Contact 0 (850) 450 06 35</value>
+  </data>
   <data name="Odalar" xml:space="preserve">
     <value>Rooms</value>
   </data>
