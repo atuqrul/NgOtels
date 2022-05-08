@@ -108,6 +108,7 @@ body {
 }
 
 .navbar .container {
+    border-radius: 25px;
     background-color: white !important;
 }
 
@@ -3763,7 +3764,7 @@ body .page-header {
 
 /* RESPONSIVE MEDIUM  */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
-    
+
     .side-image .video-button {
         width: 120px;
         height: 120px;
@@ -3959,6 +3960,15 @@ body .page-header {
 }
 /* RESPONSIVE TABLET  */
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+    li form select {
+        background-color: rgb(20, 20, 20);
+        color: white;
+        font-size: larger !important;
+    }
+
+    .info-text {
+        color: white;
+    }
 
     .advert {
         margin-top: 10px;

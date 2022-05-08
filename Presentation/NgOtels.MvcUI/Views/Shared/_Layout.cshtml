@@ -60,21 +60,15 @@
             <!-- end layer -->
             <div class="container">
                 <ul class="nav-menu mobile-menu">
-                    <li><a href="/">Anasayfa</a></li>
-                    <li><a href="/rooms">Odalar</a></li>
-                    <li><a href="/special">Hizmetler</a></li>
-                    <li><a href="/special">Galeri</a></li>
-                    @*<li><a href="discover">@localizer["Kesfet"]</a></li>*@
-                    <li><a href="/contact">İletişim</a></li>
+                    <li><a href="/">@localizer["Anasayfa"]</a></li>
+                    <li><a href="/rooms">@localizer["Odalar"]</a></li>
+                    <li><a href="/special">@localizer["Hizmetler"]</a></li>
+                    <li><a href="/gallery">@localizer["Galeri"]</a></li>
+                    <li><a href="/contact">@localizer["Iletisim"]</a></li>
+                    <li class="nav-link mobile-menu nav-menu">
+                        <partial name="_Culture" />
+                    </li>
                 </ul>
-               @* <ul class="nav-menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/discover">The Maison</a></li>
-                    <li><a href="/rooms">Rooms</a></li>
-                    <li><a href="/meetings">Activities</a></li>
-                    <li><a href="/news">News</a></li>
-                    <li><a href="/contact-us">Contact Us</a></li>
-                </ul>*@
                 <div class="info-box">
                     <span>Follow us on Social Media</span>
                     <ul class="nav-social">
@@ -94,15 +88,17 @@
             <div class="container">
                 <div class="logo nvg"> <a href="/"><img src="~/images/maisonlogo.png" alt="Image"></a> </div>
                 <!-- end logo -->
-                <div class="navbar-text nvg">Contact 0 (850) 450 06 35</div>
+                <div class="navbar-text nvg"><span class="info-text">Contact 0 (850) 450 06 35</span></div>
                 <!-- end navbar-text -->
                 <div class="site-menu nvg">
                     <ul>
-                        <li><a href="/rooms">Rooms</a></li>
-                        @*<li><a href="/discover">Discover Maison</a></li>*@
-                      @*  <li><a href="/meetings">Meetings & Events</a></li>*@
-                        <li><a href="/gallery">Galeri</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/">@localizer["Anasayfa"]</a></li>
+                        <li><a href="/gallery">@localizer["Galeri"]</a></li>
+                        <li><a href="/contact">@localizer["Iletisim"]</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
                         <li class="nav-link">
                             <partial name="_Culture" />
                         </li>

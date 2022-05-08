@@ -120,17 +120,29 @@
   <data name="Address" xml:space="preserve">
     <value>Adres</value>
   </data>
+  <data name="Anasayfa" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
   <data name="Footer" xml:space="preserve">
     <value>Hem zarif hem de yaratıcı Maison L'etro Alaçatı Çeşme, Alaçatı'nın en gözde lokasyonunda &lt;u&gt;tarihi mirası&lt;/u&gt; çağdaş lüksle birleştiriyor.</value>
   </data>
   <data name="Footer2" xml:space="preserve">
     <value>Etkileyici The Maison L'etro</value>
   </data>
+  <data name="Galeri" xml:space="preserve">
+    <value>Galeri</value>
+  </data>
+  <data name="Hizmetler" xml:space="preserve">
+    <value>Hizmetler</value>
+  </data>
   <data name="Iletisim" xml:space="preserve">
     <value>İletişim</value>
   </data>
   <data name="Kesfet" xml:space="preserve">
     <value>Maison'u Keşfet</value>
+  </data>
+  <data name="Odalar" xml:space="preserve">
+    <value>Odalar</value>
   </data>
   <data name="Yukleniyor" xml:space="preserve">
     <value>YÜKLENİYOR</value>
