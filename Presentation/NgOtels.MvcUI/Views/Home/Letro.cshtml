@@ -1,10 +1,10 @@
 ﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 @{
-    ViewData["Title"] = "MAISON L'ETRO";
-    Layout = "_Layout";
+    ViewData["Title"] = "MAISON L'ETRO";    
 }
 
 @Html.Partial("Partial/_Header")
+
 
 <section class="content-section no-spacing">
     <div class="container">
@@ -280,3 +280,122 @@
     </div>
     <!-- end container -->
 </section>
+<section class="content-section no-spacing" data-background="#f5f3ec">
+    <div class="container">
+        <div class="row no-gutters align-items-center">
+            <div class="col-lg-6">
+                <div class="side-content text-center">
+                    <h1><b> @localizer["RoomsHeader"]</b></h1>
+                    <h3 class="text-justify">
+                        @localizer["Desc"]
+                    </h3>
+                    <h3 class="text-justify">@localizer["Desc2"]</h3>
+                    <a href="special-offers" class="custom-button"><span class=h5> @localizer["RoomsButton"]</span></a>
+                </div>
+                <!-- end side-content -->
+            </div>
+            <!-- end col-6 -->
+            <div class="col-lg-6">
+                <figure class="side-image right-full overlap-bottom reveal-effect"><img src="/images/side-image01.jpg" alt="Image"> <a href="videos/video01.mp4" class="video-button" data-fancybox data-width="640" data-height="360"><i class="lni lni-play"></i></a> </figure>
+            </div>
+            <!-- end col-6 -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end content-section -->
+
+<section class="content-section no-spacing">
+    <div class="container">
+        <div class="row no-gutters align-items-center">
+            <div class="col-12">
+                <div class="section-title text-center">
+                    <h6>Maison L'etro</h6>
+                    <h2><b>@localizer["Header2"]</b></h2>
+                </div>
+                <!-- end section-title -->
+            </div>
+            <!-- end col-12 -->
+            <div class="col-lg-6">
+                <figure class="side-image left-align reveal-effect"><img src="/images/side-image02.jpg" alt="Image"></figure>
+            </div>
+            <!-- end col-6 -->
+            <div class="col-lg-6">
+                <div class="side-hotel-box right">
+                    <div class="review"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star"></i><span>3,674 reviews</span></div>
+                    <!-- end -->
+                    <h4>
+                        @localizer["Aciklama2"]
+                    </h4>
+                    <p>#1 Best Value in New York City that matches your filters</p>
+                    <div class="info-box">
+                        <span>
+                            @localizer["Fiyat1"], <br>
+                            @localizer["Fiyat2"]
+                        </span>
+                        @*<b><small>per night</small>$77</b>*@
+                    </div>
+                    <!-- end info-box -->
+                    <a href="room-detail.html" class="custom-button"><span class=h5>@localizer["Fiyat3"]</span></a>
+                    @*<div class="availability"><i class="lni lni-checkmark"></i> Instant Availability</div>*@
+                </div>
+                <!-- end side-content -->
+            </div>
+            <!-- end col-6 -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end content-section -->
+
+<section class="content-section no-spacing" data-background="#856d47">
+    <div class="container">
+        <div class="row no-gutters align-items-center">
+            <div class="col-lg-6">
+                <div class="side-content light text-left">
+                    <h6>@localizer["F&B"]</h6>
+                    <h2>@localizer["F&B2"]</h2>
+                    <p>
+                        @localizer["F&B3"]
+                    </p>
+                    <a href="meetings-events.html" class="custom-button">SEE RESTURANTS & BARS</a>
+                </div>
+                <!-- end side-content -->
+            </div>
+            <!-- end col-6 -->
+            <div class="col-lg-6">
+                <figure class="side-image right-align overlap-top reveal-effect"><img src="/images/side-image03.jpg" alt="Image"></figure>
+            </div>
+            <!-- end col-6 -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end content-section -->
+
+<section class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="newsletter-box">
+                    <h6>STORIES DELIVERED STRAIGHT</h6>
+                    <h2>Get News & Updates to Your Inbox</h2>
+                    <form>
+                        <input type="email" placeholder="Enter Your Email Address....">
+                        <input type="submit" value="SUBSCRIBE">
+                    </form>
+                    <small>Will be used in accordance with our <a href="#">Privacy Policy</a></small>
+                </div>
+                <!-- end newsletter-box -->
+            </div>
+            <!-- end col-12 -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end content-section -->
+

@@ -33,6 +33,14 @@ namespace NgOtels.MvcUI.Controllers
             return View();
         }
 
+        [Route("letro")]
+        public IActionResult Letro()
+        {
+            //var test = _localizer["Merhaba"];
+            //ViewData["Merhaba"] = test;
+            return View();
+        }
+
         [Route("discover")]
         public IActionResult Discover()
         {
