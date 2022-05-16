@@ -1,6 +1,6 @@
 ﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 @{
-    ViewData["Title"] = "MAISON L'ETRO";    
+    ViewData["Title"] = "MAISON L'ETRO";
 }
 
 @Html.Partial("Partial/_Header")
@@ -14,297 +14,38 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="section-title">
-                                <h6>Maison L'etro</h6>
-                                <h2>
+                                <h6 style="font-family: 'Merriweather', serif;">Maison L'etro</h6>
+                                <h2 style="font-family: 'Merriweather', serif;">
                                     @localizer["Aciklama1"]
                                 </h2>
                             </div>
                         </div>
-                        <div class="advert col-xl-4 col-md-6 col-sm-12">
-                            <!--Carousel Wrapper-->
-                            <div id="pic-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
-                                <!--Indicators-->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#pic-carousel-example2" data-slide-to="0" class="active"></li>
-                                    <li data-target="#pic-carousel-example2" data-slide-to="1"></li>
-                                    <li data-target="#pic-carousel-example2" data-slide-to="2"></li>
-                                    <li data-target="#pic-carousel-example2" data-slide-to="3"></li>
-                                </ol>
-                                <!--/.Indicators-->
-                                <!--Slides-->
-                                <div class="carousel-inner" role="listbox">
-                                    <!-- First slide -->
-                                    <div class="carousel-item active">
-                                        <!--Mask color-->
-                                        <div class="view">
-                                            <img class="w-100" src="/images/sol1.png" alt="image">
-                                            <div class="mask rgba-indigo-light"></div>
-                                        </div>
-
-                                        <!--Caption-->
-                                        <div class="carousel-caption">
-                                            <div class="animated fadeInDown" style="font-family: 'Gill Sans Extrabold', Didot Italic;">
-                                                <h1 class="h1-responsive font-italic">5 Gece Kal </h1>
-                                                <h1 class="h1-responsive font-italic">4 Gece Öde </h1>
-                                                <div style="min-height:10rem;"></div>
-                                                <img src="/images/maisonlogo.png" alt="maison_logo">
-                                            </div>
-                                        </div>
-                                        <!--Caption-->
-                                    </div>
-                                    <!-- /.First slide -->
-                                    <!-- Second slide -->
-                                    <div class="carousel-item">
-                                        <!--Mask color-->
-                                        <div class="view">
-                                            <img class="w-100" src="/images/sol2.png" alt="image">
-                                            <div class="mask rgba-purple-slight"></div>
-                                        </div>
-
-                                        <!--Caption-->
-                                        <div class="carousel-caption">
-                                            <div class="animated fadeInDown" style="font-family: 'Gill Sans Extrabold', Didot Italic;">
-                                                <h1 class="h1-responsive font-italic">5 Gece Kal </h1>
-                                                <h1 class="h1-responsive font-italic">4 Gece Öde </h1>
-                                                <div style="min-height:10rem;"></div>
-                                                <img src="/images/maisonlogo.png" alt="maison_logo">
-                                            </div>
-                                        </div>
-                                        <!--Caption-->
-                                    </div>
-                                    <!-- /.Second slide -->
-                                    <!-- Third slide -->
-                                    <div class="carousel-item">
-                                        <!--Mask color-->
-                                        <div class="view">
-                                            <img class="w-100" src="/images/sol3.png" alt="image">
-                                            <div class="mask rgba-black-strong"></div>
-                                        </div>
-
-                                        <!--Caption-->
-                                        <div class="carousel-caption">
-                                            <div class="animated fadeInDown" style="font-family: 'Gill Sans Extrabold', Didot Italic;">
-                                                <h1 class="h1-responsive font-italic">5 Gece Kal </h1>
-                                                <h1 class="h1-responsive font-italic">4 Gece Öde </h1>
-                                                <div style="min-height:10rem;"></div>
-                                                <img src="/images/maisonlogo.png" alt="maison_logo">
-                                            </div>
-                                        </div>
-                                        <!--Caption-->
-                                    </div>
-                                    <!-- /.Third slide -->
-                                    <!-- Third slide -->
-                                    <div class="carousel-item">
-                                        <!--Mask color-->
-                                        <div class="view">
-                                            <img class="w-100" src="/images/sol4.png" alt="image">
-                                            <div class="mask rgba-black-strong"></div>
-                                        </div>
-
-                                        <!--Caption-->
-                                        <div class="carousel-caption">
-                                            <div class="animated fadeInDown" style="font-family: 'Gill Sans Extrabold', Didot Italic;">
-                                                <h1 class="h1-responsive font-italic">5 Gece Kal </h1>
-                                                <h1 class="h1-responsive font-italic">4 Gece Öde </h1>
-                                                <div style="min-height:10rem;"></div>
-                                                <img src="/images/maisonlogo.png" alt="maison_logo">
-                                            </div>
-                                        </div>
-                                        <!--Caption-->
-                                    </div>
-                                    <!-- /.Third slide -->
-                                </div>
-                                <!--/.Slides-->
-                                <!--Controls-->
-                                <a class="carousel-control-prev" href="#pic-carousel-example2" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#pic-carousel-example2" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                                <!--/.Controls-->
-                            </div>
-                            <!--Carousel Wrapper-->
-                        </div>
-                        <div class="advert col-xl-4 col-md-6 col-sm-12">
-                            <!-- Card -->
-                            <div class="advert card card-image"
-                                 style="background-image: url('../../images/orta_top.jpg');background-repeat:no-repeat;background-size: cover;height:17.64rem;">
-                                <!-- Content -->
-                                <div class="text-white text-center d-flex align-items-center rgba-black-strong">
-                                    <div>
-                                        <h1 class="pink-text mt-4 "><i class="fas fa-chart-pie"></i> ----- </h1>
-                                        <h4 class="card-title mt-4 mb-2">Maison Hotels</h4>
-                                        <p class="mt-4 mb-0">
-                                            <img src="/images/maisonlogo.png" alt="maison_logo" class="w-50 h-25 mb-0">
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Card -->
-                            </div>
-
-                            <!-- Card -->
-                            <div class="advert card card-image mtop"
-                                 style="background-image: url('../../images/orta_alt.jpg');background-repeat:no-repeat;background-size:cover; height:17.64rem;">
-                                <!-- Content -->
-                                <div class="text-white text-center d-flex align-items-center rgba-black-strong">
-                                    <div>
-                                        <h1 class="pink-text mt-4 "><i class="fas fa-chart-pie"></i> ----- </h1>
-                                        <h4 class="card-title mt-4 mb-2">Maison Hotels</h4>
-                                        <p class="mt-4 mb-0">
-                                            <img src="/images/maisonlogo.png" alt="maison_logo" class="w-50 h-25 mb-0">
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Card -->
-                            </div>
-                        </div>
-                        <div class="advert col-xl-4 col-md-6 col-sm-12">
-                            <!--Carousel Wrapper-->
-                            <div id="pic-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
-                                <!--Indicators-->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#pic-carousel-example" data-slide-to="0" class="active"></li>
-                                    <li data-target="#pic-carousel-example" data-slide-to="1"></li>
-                                    <li data-target="#pic-carousel-example" data-slide-to="2"></li>
-                                    <li data-target="#pic-carousel-example" data-slide-to="3"></li>
-                                </ol>
-                                <!--/.Indicators-->
-                                <!--Slides-->
-                                <div class="carousel-inner" role="listbox">
-                                    <!-- First slide -->
-                                    <div class="carousel-item active">
-                                        <!--Mask color-->
-                                        <div class="view">
-                                            <img class="w-100" src="/images/sol1.png" alt="image">
-                                            <div class="mask rgba-indigo-light"></div>
-                                        </div>
-
-                                        <!--Caption-->
-                                        <div class="carousel-caption">
-                                            <div class="animated fadeInDown" style="font-family: 'Gill Sans Extrabold', Didot Italic;">
-                                                <h1 class="h1-responsive">5 Gece Kal </h1>
-                                                <h1 class="h1-responsive">4 Gece Öde </h1>  <div style="min-height:10rem;"></div>
-                                                <img src="/images/maisonlogo.png" alt="maison_logo">
-                                            </div>
-                                        </div>
-                                        <!--Caption-->
-                                    </div>
-                                    <!-- /.First slide -->
-                                    <!-- Second slide -->
-                                    <div class="carousel-item">
-                                        <!--Mask color-->
-                                        <div class="view">
-                                            <img class="w-100" src="/images/sol2.png" alt="image">
-                                            <div class="mask rgba-purple-slight"></div>
-                                        </div>
-
-                                        <!--Caption-->
-                                        <div class="carousel-caption">
-                                            <div class="animated fadeInDown" style="font-family: 'Gill Sans Extrabold', Didot Italic;">
-                                                <h1 class="h1-responsive">5 Gece Kal </h1>
-                                                <h1 class="h1-responsive">4 Gece Öde </h1>
-                                                <div style="min-height:10rem;"></div>
-                                                <img src="/images/maisonlogo.png" alt="maison_logo">
-                                            </div>
-                                        </div>
-                                        <!--Caption-->
-                                    </div>
-                                    <!-- /.Second slide -->
-                                    <!-- Third slide -->
-                                    <div class="carousel-item">
-                                        <!--Mask color-->
-                                        <div class="view">
-                                            <img class="w-100" src="/images/sol3.png" alt="image">
-                                            <div class="mask rgba-black-strong"></div>
-                                        </div>
-
-                                        <!--Caption-->
-                                        <div class="carousel-caption">
-                                            <div class="animated fadeInDown" style="font-family: 'Gill Sans Extrabold', Didot Italic;">
-                                                <h1 class="h1-responsive font-italic">5 Gece Kal </h1>
-                                                <h1 class="h1-responsive font-italic">4 Gece Öde </h1>
-                                                <div style="min-height:10rem;"></div>
-                                                <img src="/images/maisonlogo.png" alt="maison_logo">
-                                            </div>
-                                        </div>
-                                        <!--Caption-->
-                                    </div>
-                                    <!-- /.Third slide -->
-                                    <!-- Third slide -->
-                                    <div class="carousel-item">
-                                        <!--Mask color-->
-                                        <div class="view">
-                                            <img class="w-100" src="/images/sol4.png" alt="image">
-                                            <div class="mask rgba-black-strong"></div>
-                                        </div>
-
-                                        <!--Caption-->
-                                        <div class="carousel-caption">
-                                            <div class="animated fadeInDown" style="font-family: 'Gill Sans Extrabold', Didot Italic;">
-                                                <h1 class="h1-responsive font-italic">5 Gece Kal </h1>
-                                                <h1 class="h1-responsive font-italic">4 Gece Öde </h1>
-                                                <div style="min-height:10rem;"></div>
-                                                <img src="/images/maisonlogo.png" alt="maison_logo">
-                                            </div>
-                                        </div>
-                                        <!--Caption-->
-                                    </div>
-                                    <!-- /.Third slide -->
-                                </div>
-                                <!--/.Slides-->
-                                <!--Controls-->
-                                <a class="carousel-control-prev" href="#pic-carousel-example" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#pic-carousel-example" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                                <!--/.Controls-->
-                            </div>
-                            <!--Carousel Wrapper-->
-                        </div>
-                        <!--Carousel Wrapper-->
                     </div>
                 </div>
-                <!-- end container -->
             </section>
-            <!-- end content-section -->
-            <!-- end col-12 -->
         </div>
-        <!-- end row -->
     </div>
-    <!-- end container -->
 </section>
-<section class="content-section no-spacing" data-background="#f5f3ec">
+<section class="content-section no-spacing" style="background-image:url('../images/background.jpeg') !important;">
     <div class="container">
         <div class="row no-gutters align-items-center">
             <div class="col-lg-6">
                 <div class="side-content text-center">
-                    <h1><b> @localizer["RoomsHeader"]</b></h1>
-                    <h3 class="text-justify">
+                    <h3><b> @localizer["RoomsHeader"]</b></h3>
+                    <h5 class="text-justify">
                         @localizer["Desc"]
-                    </h3>
-                    <h3 class="text-justify">@localizer["Desc2"]</h3>
-                    <a href="special-offers" class="custom-button"><span class=h5> @localizer["RoomsButton"]</span></a>
+                    </h5>
+                    <h5 class="text-justify">@localizer["Desc2"]</h5>
                 </div>
-                <!-- end side-content -->
             </div>
-            <!-- end col-6 -->
             <div class="col-lg-6">
-                <figure class="side-image right-full overlap-bottom reveal-effect"><img src="/images/side-image01.jpg" alt="Image"> <a href="videos/video01.mp4" class="video-button" data-fancybox data-width="640" data-height="360"><i class="lni lni-play"></i></a> </figure>
+                <figure class="side-image right-full overlap-bottom reveal-effect">
+                    <img src="/images/birbaskadir.jpeg" alt="Image">
+                </figure>
             </div>
-            <!-- end col-6 -->
         </div>
-        <!-- end row -->
     </div>
-    <!-- end container -->
 </section>
-<!-- end content-section -->
 
 <section class="content-section no-spacing">
     <div class="container">
@@ -314,82 +55,214 @@
                     <h6>Maison L'etro</h6>
                     <h2><b>@localizer["Header2"]</b></h2>
                 </div>
-                <!-- end section-title -->
             </div>
-            <!-- end col-12 -->
             <div class="col-lg-6">
-                <figure class="side-image left-align reveal-effect"><img src="/images/side-image02.jpg" alt="Image"></figure>
+                <figure class="left-align reveal-effect"><img src="/images/room-gallery01.png" alt="Image"></figure>
             </div>
-            <!-- end col-6 -->
             <div class="col-lg-6">
                 <div class="side-hotel-box right">
-                    <div class="review"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star"></i><span>3,674 reviews</span></div>
-                    <!-- end -->
+                    @*<div class="review"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star"></i><span>3,674 reviews</span></div>*@
                     <h4>
                         @localizer["Aciklama2"]
                     </h4>
-                    <p>#1 Best Value in New York City that matches your filters</p>
-                    <div class="info-box">
-                        <span>
-                            @localizer["Fiyat1"], <br>
-                            @localizer["Fiyat2"]
-                        </span>
-                        @*<b><small>per night</small>$77</b>*@
-                    </div>
-                    <!-- end info-box -->
-                    <a href="room-detail.html" class="custom-button"><span class=h5>@localizer["Fiyat3"]</span></a>
-                    @*<div class="availability"><i class="lni lni-checkmark"></i> Instant Availability</div>*@
+                    <a href="/rooms" class="custom-button" style="background-color: #df7358;float:right"><span class=h5>@localizer["Odalar"]</span></a>
                 </div>
-                <!-- end side-content -->
             </div>
-            <!-- end col-6 -->
         </div>
-        <!-- end row -->
     </div>
-    <!-- end container -->
 </section>
-<!-- end content-section -->
 
-<section class="content-section no-spacing" data-background="#856d47">
+<section class="content-section no-spacing" style="background-color:#fcd6c1">
     <div class="container">
         <div class="row no-gutters align-items-center">
             <div class="col-lg-6">
                 <div class="side-content light text-left">
-                    <h6>@localizer["F&B"]</h6>
                     <h2>@localizer["F&B2"]</h2>
                     <p>
                         @localizer["F&B3"]
                     </p>
-                    <a href="meetings-events.html" class="custom-button">SEE RESTURANTS & BARS</a>
                 </div>
-                <!-- end side-content -->
             </div>
-            <!-- end col-6 -->
             <div class="col-lg-6">
-                <figure class="side-image right-align overlap-top reveal-effect"><img src="/images/side-image03.jpg" alt="Image"></figure>
+                <figure class="side-image overlap-top reveal-effect"><img src="/images/side-image03.jpg" alt="Image"></figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="col-12">
+    <div class="section-title text-center mt-5">
+        <h6>MAISON L'ETRO</h6>
+    </div>
+</div>
+
+<section class="content-section no-spacing">
+    <div class="rooms-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-background="images/room-gallery01.png">
+                <div class="room-detail">
+                    <div class="price-line"><span>MAISON L'ETRO</span></div>
+                    <h3><a href="/rooms">ODALAR</a></h3>
+                    @*<div class="reviews">925 guest reviews <span>8.0</span></div>*@
+                </div>
+                <!-- end room-detail -->
+            </div>
+            <div class="swiper-slide" data-background="images/room-gallery01.png">
+                <div class="room-detail">
+                    <div class="price-line"><span>MAISON L'ETRO</span></div>
+                    <h3><a href="/rooms">ODALAR</a></h3>
+                    @*<div class="reviews">925 guest reviews <span>8.0</span></div>*@
+                </div>
+                <!-- end room-detail -->
+            </div>
+            <div class="swiper-slide" data-background="images/room-gallery01.png">
+                <div class="room-detail">
+                    <div class="price-line"><span>MAISON L'ETRO</span></div>
+                    <h3><a href="/rooms">ODALAR</a></h3>
+                    @*<div class="reviews">925 guest reviews <span>8.0</span></div>*@
+                </div>
+                <!-- end room-detail -->
+            </div>
+            <div class="swiper-slide" data-background="images/room-gallery01.png">
+                <div class="room-detail">
+                    <div class="price-line"><span>MAISON L'ETRO</span></div>
+                    <h3><a href="/rooms">ODALAR</a></h3>
+                    @*<div class="reviews">925 guest reviews <span>8.0</span></div>*@
+                </div>
+                <!-- end room-detail -->
+            </div>
+            <div class="swiper-slide" data-background="images/room-gallery01.png">
+                <div class="room-detail">
+                    <div class="price-line"><span>MAISON L'ETRO</span></div>
+                    <h3><a href="/rooms">ODALAR</a></h3>
+                    @*<div class="reviews">925 guest reviews <span>8.0</span></div>*@
+                </div>
+                <!-- end room-detail -->
+            </div>
+            <!-- end swiper-slide -->
+        </div>
+    </div>
+    <!-- end rooms-slider -->
+</section>
+<!-- end content-section -->
+<section class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title text-center mt-5">
+                    <h6>MAISON L'ETRO</h6>
+                    <h4 class="mt-2">
+                        @localizer["Surf"]
+                    </h4>
+                </div>
+            </div>
+            <!-- end col-12 -->
+            <div class="col-md-6">
+                <div class="recent-news">
+                    <figure class="reveal-effect"><img src="images/recent-news01.jpg" alt="Image"></figure>
+                    <div class="content">
+                        <ul>
+                            <li><a href="#">ALAÇATI</a></li>
+                        </ul>
+                        @*  <span>DEC 26, 2020</span>
+                            <h2>
+                            <a href="news-single.html">
+                            The Best Restaurants in
+                            London Rights Now
+                            </a>
+                            </h2>*@
+                    </div>
+                    <!-- end content -->
+                </div>
+                <!-- end recent-news -->
             </div>
             <!-- end col-6 -->
+            <div class="col-md-6">
+                <div class="recent-news">
+                    <figure class="reveal-effect"><img src="images/recent-news02.jpg" alt="Image"></figure>
+                    <div class="content">
+                        <ul>
+                            <li><a href="#">RÜZGAR SÖRFÜ</a></li>
+                        </ul>
+                        @* <span>NOV 17, 2020</span>
+                            <h2>
+                            <a href="news-single.html">
+                            Most Delicious Plates
+                            from Quardo Kitchen
+                            </a>
+                            </h2>*@
+                    </div>
+                    <!-- end content -->
+                </div>
+                <!-- end recent-news -->
+            </div>
+            <!-- end col-6 -->
+            <div class="col-12 spacing-50"></div>
+            <!-- end col-12 -->
+            @*<div class="col-12 text-center"> <a href="news.html" class="custom-button">VIEW ALL NEWS</a> </div>*@
+            <!-- end col-12 -->
         </div>
         <!-- end row -->
     </div>
     <!-- end container -->
 </section>
 <!-- end content-section -->
+<section class="content-section no-spacing" data-background="#f5f3ec">
+    <div class="container">
+        <div class="row no-gutters align-items-center">
+            <div class="col-lg-7">
+                <figure class="side-gallery">
+                    <div class="reveal-effect"><img src="images/side-gallery01.jpg" alt="Image"></div>
+                    <div class="reveal-effect"><img src="images/side-gallery02.jpg" alt="Image"></div>
+                    <div class="reveal-effect"><img src="images/side-gallery03.jpg" alt="Image"></div>
+                </figure>
+            </div>
+            <div class="col-lg-5">
+                <div class="side-content text-center">
+                    <h2>
+                        @localizer["Estetik"]
+                    </h2>
+                    <p class="text-left">
+                        @localizer["Konfor"]
+                    </p>
+                    <a href="/gallery" style="background-color: #df7358;float:right" class="custom-button">Galeri</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="content-section">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="newsletter-box">
-                    <h6>STORIES DELIVERED STRAIGHT</h6>
-                    <h2>Get News & Updates to Your Inbox</h2>
+                    <h6>Maison L'etro</h6>
+                    <h2>@localizer["Bulten"]</h2>
                     <form>
-                        <input type="email" placeholder="Enter Your Email Address....">
-                        <input type="submit" value="SUBSCRIBE">
+                        <input type="email" placeholder='@localizer["EmailPlaceholder"]'>
+                        <input style="background-color: #df7358;float:right" type="submit" value=@localizer["Kaydol"]>
                     </form>
                     <small>Will be used in accordance with our <a href="#">Privacy Policy</a></small>
                 </div>
-                <!-- end newsletter-box -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content-section no-spacing" style="background-color: #df7358;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-bar">
+                    <i class="lni lni-protection"></i>
+                    <h6>iletişim:</h6>
+                    <strong>+90 0850 450 06 35</strong>
+                    <figure><img src="images/logo-tripadviser.png" alt="Image"></figure>
+                </div>
+                <!-- end footer-bar -->
             </div>
             <!-- end col-12 -->
         </div>
@@ -397,5 +270,3 @@
     </div>
     <!-- end container -->
 </section>
-<!-- end content-section -->
-

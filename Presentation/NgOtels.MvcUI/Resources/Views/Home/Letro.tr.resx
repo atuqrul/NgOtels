@@ -121,7 +121,10 @@
     <value>Rengarenk bir tarz ve bohem mimarinin özgür ruhu L'etro'da </value>
   </data>
   <data name="Aciklama2" xml:space="preserve">
-    <value>İbiza mimarisinin rengarenk canlılığını,bohem mimarinin özgür ruhu ve etro desenler ile birleştirerek Ege mavisiyle buluşturan Maison L'etro, her bir detayı incelikle düşünülmüş tasarımlarıyla, her köşesinde size Ege'de olduğunuzu hissettiriyor.</value>
+    <value>Maison L’etro’nun fark yaratan yaratıcı bir incelikle dekore edilen konforlu odalarındaki her bir detay hem zihinleri hem bedenleri dinlendirecek şekilde tasarlandı.</value>
+  </data>
+  <data name="Bulten" xml:space="preserve">
+    <value>Fırsatlarımızdan haberdar olmak için bültenimize kaydolun</value>
   </data>
   <data name="Desc" xml:space="preserve">
     <value>Tarih kokan dar sokakları, geceyi ışıldatan eğlence mekanları, mavinin turkuaza çaldığı muhteşem deniziyle Ege'nin kalbi Alaçatı... </value>
@@ -129,14 +132,20 @@
   <data name="Desc2" xml:space="preserve">
     <value>Alaçatı otellerinin en Ege kokanı ise Maison L'etro...</value>
   </data>
+  <data name="EmailPlaceholder" xml:space="preserve">
+    <value>Lütfen Eposta Adresinizi Yazınız...</value>
+  </data>
+  <data name="Estetik" xml:space="preserve">
+    <value>Estetik ve Kalite</value>
+  </data>
   <data name="F&amp;B" xml:space="preserve">
     <value>Yiyecek &amp; İçecek</value>
   </data>
   <data name="F&amp;B2" xml:space="preserve">
-    <value>Lezzetli ve sağlıklı</value>
+    <value>Ege Lezzetleri Maison Letro' da </value>
   </data>
   <data name="F&amp;B3" xml:space="preserve">
-    <value>Özel menüleriyle birinci sınıf restaurant kalitesinde lezzetler sunan mutfağımız ve her damak zevkine uygun farklı tatlarla sizi bekliyor. </value>
+    <value>Konuklarına enfes ve kişiye özel menüleriyle birinci sınıf restoran kalitesinde lezzetler de sunan Maison L’etro, hijyenik mutfağında hazırlanan meşhur Alaçatı kahvaltısında, Alaçatı’nın ünlü otları ve lezzetlerini harmanlıyor.</value>
   </data>
   <data name="Fiyat1" xml:space="preserve">
     <value>Standart Odalar</value>
@@ -153,6 +162,12 @@
   <data name="Iletisim1" xml:space="preserve">
     <value>İletişim Numarası</value>
   </data>
+  <data name="Kaydol" xml:space="preserve">
+    <value>Kaydol</value>
+  </data>
+  <data name="Konfor" xml:space="preserve">
+    <value>Konfor, estetik, hijyen, lezzet ve Ege mavisinin türlü tonlarını bir araya getiren Maison L’etro, sahip olduğu eşsiz konumuyla, konuklarının Çeşme tatili deneyimini zenginleştirip, unutulmaz kılmak için mükemmel fırsatlar sunuyor.</value>
+  </data>
   <data name="Merhaba" xml:space="preserve">
     <value>Merhaba</value>
   </data>
@@ -161,5 +176,9 @@
   </data>
   <data name="RoomsHeader" xml:space="preserve">
     <value>BİR BAŞKADIR...</value>
+  </data>
+  <data name="Surf" xml:space="preserve">
+    <value>Kimi zaman dingin kimi zaman hırçın esen rüzgârlarla yılın hemen
+Kimi zaman dingin kimi zaman hırçın esen rüzgârlarla yılın hemen her günü dans eden masmavi deniziyle, dünyaca ünlü bir rüzgâr sörfü merkezi.</value>
   </data>
 </root>

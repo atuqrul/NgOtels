@@ -6,6 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\fonts\ArgestaDisplay-Regular.woff2" />
+    <Content Remove="wwwroot\fonts\LineIcons.eot" />
+    <Content Remove="wwwroot\fonts\LineIcons.ttf" />
+    <Content Remove="wwwroot\fonts\LineIcons.woff" />
+    <Content Remove="wwwroot\fonts\LineIcons.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.16" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
   </ItemGroup>

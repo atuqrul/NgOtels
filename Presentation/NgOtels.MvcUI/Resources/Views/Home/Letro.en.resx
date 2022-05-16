@@ -126,6 +126,9 @@
     <value>Homewood Suites by &lt;br&gt;
                         Quardo New York</value>
   </data>
+  <data name="Bulten" xml:space="preserve">
+    <value>Sign up for our newsletter to be informed about our deals</value>
+  </data>
   <data name="Desc" xml:space="preserve">
     <value>Discover Britain’s
                         leading luxury and
@@ -133,6 +136,12 @@
   </data>
   <data name="Desc2" xml:space="preserve">
     <value>more description</value>
+  </data>
+  <data name="EmailPlaceholder" xml:space="preserve">
+    <value>Enter Your Email Address...</value>
+  </data>
+  <data name="Estetik" xml:space="preserve">
+    <value>Aesthetics and Quality</value>
   </data>
   <data name="F&amp;B" xml:space="preserve">
     <value>FOOD &amp; BEVERAGE</value>
@@ -162,6 +171,12 @@
   <data name="Iletisim1" xml:space="preserve">
     <value>Contact</value>
   </data>
+  <data name="Kaydol" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Konfor" xml:space="preserve">
+    <value>Bringing together comfort, aesthetics, hygiene, taste and various shades of Aegean blue, Maison L'etro offers excellent opportunities to enrich its guests' Cesme holiday experience and make it unforgettable with its unique location.</value>
+  </data>
   <data name="Merhaba" xml:space="preserve">
     <value>Hello World!</value>
   </data>
@@ -170,5 +185,8 @@
   </data>
   <data name="RoomsHeader" xml:space="preserve">
     <value>WELCOME TO PRIDE OF HOTELS</value>
+  </data>
+  <data name="Surf" xml:space="preserve">
+    <value>It is a world-famous windsurfing center with its deep blue sea that dances almost every day of the year with sometimes calm and sometimes fierce winds.</value>
   </data>
 </root>

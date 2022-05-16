@@ -74,14 +74,26 @@ theme.
 	
 
 */
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap");
 
 @font-face {
-    font-family: 'Argesta Display';
-    src: url("../fonts/ArgestaDisplay-Regular.woff2");
-    src: url("../fonts/ArgestaDisplay-Regular.woff2") format("embedded-opentype"), url("../fonts/ArgestaDisplay-Regular.woff2") format("svg");
-    font-weight: normal;
+    font-family: 'Open Sans';
     font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
 
 * {
@@ -91,7 +103,7 @@ theme.
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Open Sans';
     font-size: 18px;
     color: #141414;
     text-rendering: optimizeLegibility;
@@ -991,7 +1003,7 @@ body .page-header {
             width: 100%;
             display: block;
             font-size: 22px;
-            font-family: "Argesta Display";
+            font-family: "Open Sans";
             margin-bottom: 20px;
         }
 
@@ -1045,7 +1057,7 @@ body .page-header {
                 display: inline-block;
                 color: #fff;
                 font-size: 3vw;
-                font-family: "Argesta Display";
+                font-family: "Open Sans";
             }
 
                 .hamburger-navigation .nav-menu li a:hover {
@@ -1197,7 +1209,7 @@ body .page-header {
     .slider h1 {
         font-weight: 400;
         font-size: 6vw;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
         margin-bottom: 30px;
     }
 
@@ -1324,7 +1336,7 @@ body .page-header {
         bottom: 0;
         z-index: 1;
         color: #141414;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
         font-size: 22px;
     }
 
@@ -1426,7 +1438,7 @@ body .page-header {
             width: 100%;
             display: block;
             font-size: 5vw;
-            font-family: "Argesta Display";
+            font-family: "Open Sans";
             text-indent: -5px;
         }
 
@@ -1565,7 +1577,7 @@ body .page-header {
         width: 100%;
         display: block;
         margin: 0;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
         font-size: 60px;
     }
 
@@ -1674,7 +1686,7 @@ body .page-header {
         width: 100%;
         display: block;
         margin: 0;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
         font-size: 50px;
     }
 
@@ -1845,7 +1857,7 @@ body .page-header {
         width: 100%;
         display: block;
         font-size: 44px;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
         margin-bottom: 25px;
     }
 
@@ -2191,7 +2203,7 @@ body .page-header {
             width: 100%;
             display: block;
             font-size: 28px;
-            font-family: "Argesta Display";
+            font-family: "Open Sans";
         }
 
             .carousel-events-box .content h5 a {
@@ -2285,7 +2297,7 @@ body .page-header {
                 width: 100%;
                 display: block;
                 font-size: 36px;
-                font-family: "Argesta Display";
+                font-family: "Open Sans";
                 margin-bottom: 20px;
             }
 
@@ -2401,7 +2413,7 @@ body .page-header {
             width: 100%;
             display: block;
             font-size: 36px;
-            font-family: "Argesta Display";
+            font-family: "Open Sans";
             margin-top: 20px;
             margin-bottom: 0;
         }
@@ -2444,7 +2456,7 @@ body .page-header {
         width: 100%;
         display: block;
         margin-bottom: 15px;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
     }
 
     .testimonial-box p {
@@ -2470,7 +2482,7 @@ body .page-header {
         width: 100%;
         display: block;
         font-size: 36px;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
         margin-bottom: 15px;
     }
 
@@ -2578,7 +2590,7 @@ body .page-header {
             width: 100%;
             display: block;
             font-size: 28px;
-            font-family: "Argesta Display";
+            font-family: "Open Sans";
             margin-bottom: 25px;
             opacity: 0.7;
         }
@@ -2771,7 +2783,7 @@ body .page-header {
             width: 100%;
             display: block;
             font-size: 36px;
-            font-family: "Argesta Display";
+            font-family: "Open Sans";
             margin-bottom: 20px;
         }
 
@@ -2836,7 +2848,7 @@ body .page-header {
         width: 100%;
         display: block;
         font-size: 80px;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
         margin-bottom: 20px;
         text-indent: -4px;
     }
@@ -2889,7 +2901,7 @@ body .page-header {
         display: block;
         margin: 0;
         font-size: 19px;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
     }
 
 /* ROOM GALLERY */
@@ -2946,7 +2958,7 @@ body .page-header {
         width: 100%;
         display: block;
         font-size: 26px;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
         margin-bottom: 15px;
         color: #856d47;
     }
@@ -3044,7 +3056,7 @@ body .page-header {
             width: 100%;
             display: block;
             font-size: 28px;
-            font-family: "Argesta Display";
+            font-family: "Open Sans";
         }
 
             .meeting-event-box .content h5 a {
@@ -3111,7 +3123,7 @@ body .page-header {
             width: 100%;
             display: block;
             font-size: 28px;
-            font-family: "Argesta Display";
+            font-family: "Open Sans";
         }
 
             .special-offer-box .content h5 a {
@@ -3165,7 +3177,7 @@ body .page-header {
         width: 100%;
         display: block;
         font-size: 50px;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
         margin-bottom: 20px;
         text-indent: -4px;
     }
@@ -3221,7 +3233,7 @@ body .page-header {
         display: block;
         margin-bottom: 15px;
         font-size: 22px;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
     }
 
     .contact-box address {
@@ -3370,7 +3382,7 @@ body .page-header {
             font-size: 38px;
             line-height: 1.4;
             font-weight: 400;
-            font-family: "Argesta Display";
+            font-family: "Open Sans";
         }
 
             .news-box .content h3 a {
@@ -3427,7 +3439,7 @@ body .page-header {
             background: #f5f3ec;
             color: #856d47;
             font-size: 22px;
-            font-family: "Argesta Display";
+            font-family: "Open Sans";
             margin: 30px 0;
         }
 
@@ -3472,7 +3484,7 @@ body .page-header {
             color: #856d47;
             margin-bottom: 30px;
             padding-bottom: 30px;
-            font-family: "Argesta Display";
+            font-family: "Open Sans";
         }
 
             .sidebar .widget .widget-title:after {
@@ -3610,7 +3622,7 @@ body .page-header {
         width: 100%;
         display: block;
         margin-bottom: 20px;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
         font-size: 60px;
     }
 
@@ -3701,7 +3713,7 @@ body .page-header {
         width: 100%;
         display: block;
         font-size: 22px;
-        font-family: "Argesta Display";
+        font-family: "Open Sans";
         margin-bottom: 25px;
     }
 
