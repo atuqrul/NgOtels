@@ -171,6 +171,9 @@
   <data name="Merhaba" xml:space="preserve">
     <value>Merhaba</value>
   </data>
+  <data name="Odalar" xml:space="preserve">
+    <value>Odalar</value>
+  </data>
   <data name="RoomsButton" xml:space="preserve">
     <value>Odalar</value>
   </data>
