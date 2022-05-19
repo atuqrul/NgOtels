@@ -117,22 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Aciklama1" xml:space="preserve">
-    <value>From the Scottish Highlands &lt;br&gt;
-                                    to the Cornish Coast</value>
+  <data name="Aciklama" xml:space="preserve">
+    <value>A colorful style and free spirit of bohemian architecture Maison Hotels</value>
     <comment>campaignes</comment>
   </data>
   <data name="Aciklama2" xml:space="preserve">
-    <value>Homewood Suites by &lt;br&gt;
-                        Quardo New York</value>
+    <value>Every detail in the comfortable rooms of Maison L'etro, decorated with a distinctive creative delicacy, is designed to relax both minds and bodies</value>
   </data>
   <data name="Bulten" xml:space="preserve">
     <value>Sign up for our newsletter to be informed about our deals</value>
   </data>
   <data name="Desc" xml:space="preserve">
-    <value>Discover Britain’s
-                        leading luxury and
-                        boutique hotel.</value>
+    <value>Alaçatı, the heart of the Aegean, with its narrow streets that smell of history, entertainment venues that sparkle at night, and its magnificent sea where the blue turns into turquoise...
+The most Aegean smelling of Alaçatı hotels is Maison L'etro...</value>
   </data>
   <data name="Desc2" xml:space="preserve">
     <value>more description</value>
@@ -141,20 +138,13 @@
     <value>Enter Your Email Address...</value>
   </data>
   <data name="Estetik" xml:space="preserve">
-    <value>Aesthetics and Quality</value>
-  </data>
-  <data name="F&amp;B" xml:space="preserve">
-    <value>FOOD &amp; BEVERAGE</value>
+    <value>Impressive The Maison L'etro</value>
   </data>
   <data name="F&amp;B2" xml:space="preserve">
-    <value>Why wouldn't you dine in?</value>
+    <value>Aegean Tastes at Maison Letro</value>
   </data>
   <data name="F&amp;B3" xml:space="preserve">
-    <value>Unlike other hotels, Hotels pride themselves
-                        on offering our guests in-house award-winning
-                        restaurants and our food philosophy is
-                        simple: seasonal, ingredients to
-                        showcase the region’s finest flavours.</value>
+    <value>Offering first class restaurant quality tastes to its guests with its delicious and personalized menus, Maison L'etro blends the famous herbs and flavors of Alaçatı in the famous Alaçatı breakfast prepared in its hygienic kitchen.</value>
   </data>
   <data name="Fiyat1" xml:space="preserve">
     <value>4 offers available</value>
@@ -166,7 +156,7 @@
     <value>View &amp; Look</value>
   </data>
   <data name="Header2" xml:space="preserve">
-    <value>Quardo Hotels in UK</value>
+    <value>Free and extraordinary</value>
   </data>
   <data name="Iletisim1" xml:space="preserve">
     <value>Contact</value>
@@ -177,9 +167,6 @@
   <data name="Konfor" xml:space="preserve">
     <value>Bringing together comfort, aesthetics, hygiene, taste and various shades of Aegean blue, Maison L'etro offers excellent opportunities to enrich its guests' Cesme holiday experience and make it unforgettable with its unique location.</value>
   </data>
-  <data name="Merhaba" xml:space="preserve">
-    <value>Hello World!</value>
-  </data>
   <data name="Odalar" xml:space="preserve">
     <value>Rooms</value>
   </data>
@@ -187,9 +174,9 @@
     <value>Rooms</value>
   </data>
   <data name="RoomsHeader" xml:space="preserve">
-    <value>WELCOME TO PRIDE OF HOTELS</value>
+    <value>IT IS UNIQUE...</value>
   </data>
   <data name="Surf" xml:space="preserve">
-    <value>It is a world-famous windsurfing center with its deep blue sea that dances almost every day of the year with sometimes calm and sometimes fierce winds.</value>
+    <value>It is a world-famous windsurfing center with its deep blue sea that dances almost every day of the year with sometimes calm and sometimes fierce winds. </value>
   </data>
 </root>

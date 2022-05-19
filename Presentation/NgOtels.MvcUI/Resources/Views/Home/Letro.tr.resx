@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Aciklama1" xml:space="preserve">
+  <data name="Aciklama" xml:space="preserve">
     <value>Rengarenk bir tarz ve bohem mimarinin özgür ruhu L'etro'da </value>
   </data>
   <data name="Aciklama2" xml:space="preserve">
@@ -137,9 +137,6 @@
   </data>
   <data name="Estetik" xml:space="preserve">
     <value>Estetik ve Kalite</value>
-  </data>
-  <data name="F&amp;B" xml:space="preserve">
-    <value>Yiyecek &amp; İçecek</value>
   </data>
   <data name="F&amp;B2" xml:space="preserve">
     <value>Ege Lezzetleri Maison Letro' da </value>
@@ -167,9 +164,6 @@
   </data>
   <data name="Konfor" xml:space="preserve">
     <value>Konfor, estetik, hijyen, lezzet ve Ege mavisinin türlü tonlarını bir araya getiren Maison L’etro, sahip olduğu eşsiz konumuyla, konuklarının Çeşme tatili deneyimini zenginleştirip, unutulmaz kılmak için mükemmel fırsatlar sunuyor.</value>
-  </data>
-  <data name="Merhaba" xml:space="preserve">
-    <value>Merhaba</value>
   </data>
   <data name="Odalar" xml:space="preserve">
     <value>Odalar</value>

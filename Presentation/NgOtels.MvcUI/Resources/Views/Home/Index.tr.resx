@@ -117,49 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Aciklama1" xml:space="preserve">
+  <data name="Aciklama" xml:space="preserve">
     <value>Rengarenk bir tarz ve bohem mimarinin özgür ruhu Maison Hotels </value>
-  </data>
-  <data name="Aciklama2" xml:space="preserve">
-    <value>İbiza mimarisinin rengarenk canlılığını,bohem mimarinin özgür ruhu ve etro desenler ile birleştirerek Ege mavisiyle buluşturan Maison L'etro, her bir detayı incelikle düşünülmüş tasarımlarıyla, her köşesinde size Ege'de olduğunuzu hissettiriyor.</value>
-  </data>
-  <data name="Desc" xml:space="preserve">
-    <value>Tarih kokan dar sokakları, geceyi ışıldatan eğlence mekanları, mavinin turkuaza çaldığı muhteşem deniziyle Ege'nin kalbi Alaçatı... </value>
-  </data>
-  <data name="Desc2" xml:space="preserve">
-    <value>Alaçatı otellerinin en Ege kokanı ise Maison Hotels...</value>
-  </data>
-  <data name="F&amp;B" xml:space="preserve">
-    <value>Yiyecek &amp; İçecek</value>
-  </data>
-  <data name="F&amp;B2" xml:space="preserve">
-    <value>Lezzetli ve sağlıklı</value>
-  </data>
-  <data name="F&amp;B3" xml:space="preserve">
-    <value>Özel menüleriyle birinci sınıf restaurant kalitesinde lezzetler sunan mutfağımız ve her damak zevkine uygun farklı tatlarla sizi bekliyor. </value>
-  </data>
-  <data name="Fiyat1" xml:space="preserve">
-    <value>Standart Odalar</value>
-  </data>
-  <data name="Fiyat2" xml:space="preserve">
-    <value>1 ila 7 gece</value>
-  </data>
-  <data name="Fiyat3" xml:space="preserve">
-    <value>Fiyat Al</value>
-  </data>
-  <data name="Header2" xml:space="preserve">
-    <value>Özgür ve sıra dışı</value>
-  </data>
-  <data name="Iletisim1" xml:space="preserve">
-    <value>İletişim Numarası</value>
-  </data>
-  <data name="Merhaba" xml:space="preserve">
-    <value>Merhaba</value>
-  </data>
-  <data name="RoomsButton" xml:space="preserve">
-    <value>Odalar</value>
-  </data>
-  <data name="RoomsHeader" xml:space="preserve">
-    <value>BİR BAŞKADIR...</value>
   </data>
 </root>

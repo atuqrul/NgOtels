@@ -1195,7 +1195,7 @@ body .page-header {
     position: relative;
     color: #fff;
     text-align: center;
-    background: url("../images/slide01.jpg") center;
+    background: url("../images/header/slide01.jpg") center;
     background-size: cover !important;
     overflow: hidden;
 }
